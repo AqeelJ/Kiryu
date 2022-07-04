@@ -1,0 +1,79 @@
+public class ItemInformation 
+{
+	//Declaration variable
+	private String itemId;
+	private String itemName;
+    private double itemPrice;
+    private String datePurchase;
+    protected String purchasedItemList;
+    
+    //no-args constructor
+    public ItemInformation () 
+    {
+    	String itemId;
+    	String itemName;
+    	double  itemPrice;
+    	String datePurchase;
+    	String purchasedItemList;
+    }
+    
+    //normal constructor
+    public ItemInformation (String itemId, String itemName, double itemPrice, String datePurchase, String purchasedItemList) 
+	{
+    	super();
+		this.itemId = itemId;
+		this.itemName = itemName;
+		this.itemPrice = itemPrice;
+		this.datePurchase = datePurchase;
+		this.purchasedItemList = purchasedItemList;
+	}
+    
+  //getter or accessor
+  	public String getitemId () 
+  	{
+  		return getitemId();
+  	} 
+  	
+  	public String getitemName ()
+  	{
+  		return getitemName ();
+  	}
+  	
+  	public double getitemPrice () 
+  	{
+		return getitemPrice ();
+  	}
+  	
+  	public String getdatePurchase ()
+  	{
+  		return getdatePurchase ();	
+  	}
+  	public String getpurchasedItemList () 
+  	{
+  		return getdatePurchase ();
+  	}
+  	
+  	//mutator
+  	
+  	public String getItemId() {return itemId;}
+  	public String getItemName() {return itemName;}
+  	public double getItemPrice() {return itemPrice;}
+  	public String getDatePurchase() {return datePurchase;}
+  	
+  	
+  	//toString Method
+  	public String toString() 
+  	{
+  		return "Item Information"
+  				+"\nItem Id : "+ itemId
+  				+"\nItem Name :"+ itemName
+  				+"\nItem Price :"+ itemPrice
+  				+"\nDate Purchase :"+ datePurchase;
+  				
+  	}
+  	
+  	
+  	
+  	
+  	
+}
