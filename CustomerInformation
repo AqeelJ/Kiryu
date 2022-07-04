@@ -1,0 +1,87 @@
+import java.util.*;
+
+public class CustomerInformation 
+{
+		protected String custId;
+		protected String custIC;
+		protected int counterPaid;
+		protected String custName;
+		protected Object purchasedArrList;
+		protected ItemInformation item;
+		
+	//no-arg constructor
+	public CustomerInformation () 
+	{	
+		String custName;
+		String custId;
+		String custIC;
+		String counterPaid;
+		String purchasedArrList;
+	}
+
+	//normal constructor 
+	public CustomerInformation (String custName, String custId, String custIC, int counterPaid, ItemInformation item) 
+	{
+		super();
+		this.custName = custName;
+		this.custId = custId;
+		this.custIC = custIC;
+		this.counterPaid = counterPaid;
+        
+	}
+		
+	//getter or accessor
+	protected String getcustName ()
+	{
+		return getcustName ();
+	}
+	protected String getcustId () 
+	{
+		return getcustId();
+	} 
+	
+	protected String getcustIC () 
+	{
+		return getcustIC();
+	}
+	
+	protected String getcounterPaid ()
+	{
+		return getcounterPaid();
+	}
+	
+	protected List<Items> getpurchasedArrList () 
+	{
+		return getpurchasedArrList ();
+	}
+	
+	
+	//mutator 
+	public void setcustName(String custName) {this.custName = custName;}
+	public void setcustId(String custId) {this.custId = custId;}
+	public void setcustIC(String custIC) {this.custIC = custIC;}
+	public void setcounterPaid(int n) {this.counterPaid = n  ;}
+
+	
+	//toString method 
+	public String toString () 
+	{
+		return custId;
+	}
+
+	public Object getItem() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
+	
