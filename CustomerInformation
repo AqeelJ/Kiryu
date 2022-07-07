@@ -1,87 +1,81 @@
-import java.util.*;
 
-public class CustomerInformation 
-{
-		protected String custId;
-		protected String custIC;
-		protected int counterPaid;
-		protected String custName;
-		protected Object purchasedArrList;
-		protected ItemInformation item;
+
+//Customer Information Class
+public class CustomerInformation {
+	
+	//Declaration of attributes for CustomerInformation Class
+	String custId;
+	String custIc;
+	int counterPaid;
+	private ItemInformation item; //Customer has-a item
+	
+	
+	//Getter and setter for ItemInformation class
+	public ItemInformation getItem() {
+		return item;
+	}
+
+	public void setItem(ItemInformation item) {
+		this.item = item;
+	}
+
+	//Without parameter constructor
+	public CustomerInformation()
+	{
+		custId = null;
+		custIc = null;
+		counterPaid = 0;
+	}//end of no-args constructor
+	
+	//With parameter constructor
+	public CustomerInformation(String CustID, String CustIC, int CounterPaid)
+	{
+		custId = CustID;
+		custIc = CustIC;
+		counterPaid = CounterPaid;
 		
-	//no-arg constructor
-	public CustomerInformation () 
-	{	
-		String custName;
-		String custId;
-		String custIC;
-		String counterPaid;
-		String purchasedArrList;
-	}
-
-	//normal constructor 
-	public CustomerInformation (String custName, String custId, String custIC, int counterPaid, ItemInformation item) 
-	{
-		super();
-		this.custName = custName;
-		this.custId = custId;
-		this.custIC = custIC;
-		this.counterPaid = counterPaid;
-        
-	}
 		
-	//getter or accessor
-	protected String getcustName ()
-	{
-		return getcustName ();
-	}
-	protected String getcustId () 
-	{
-		return getcustId();
-	} 
+	}//end of normal constructor
 	
-	protected String getcustIC () 
+	
+	//Setter Method
+	public void setCustId(String CustID)
 	{
-		return getcustIC();
+		custId = CustID;
 	}
 	
-	protected String getcounterPaid ()
+	public void setCustIc(String CustIC)
 	{
-		return getcounterPaid();
+		custIc = CustIC;
 	}
 	
-	protected List<Items> getpurchasedArrList () 
+	public void setCounterPaid(int CounterPaid)
 	{
-		return getpurchasedArrList ();
+		counterPaid = CounterPaid;
 	}
 	
-	
-	//mutator 
-	public void setcustName(String custName) {this.custName = custName;}
-	public void setcustId(String custId) {this.custId = custId;}
-	public void setcustIC(String custIC) {this.custIC = custIC;}
-	public void setcounterPaid(int n) {this.counterPaid = n  ;}
-
-	
-	//toString method 
-	public String toString () 
+	//Getter method
+	public String getCustId()
 	{
 		return custId;
 	}
-
-	public Object getItem() {
-		// TODO Auto-generated method stub
-		return null;
+	
+	public String getCustIc()
+	{
+		return custIc;
 	}
 	
+	public int getCounterPaid()
+	{
+		return counterPaid;
+	}
+	
+	//toString
+	public String toString()
+	{
+		return ("Customer Id: " + custId + "Customer Ic: " + custIc + "Counter Paid: " + counterPaid);
+	}//end of toString
 	
 	
-	
-	
-	
-	
-	
-	
-	
-}
-	
+}// end of Customer Information class
+
