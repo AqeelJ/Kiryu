@@ -1,79 +1,97 @@
-public class ItemInformation 
-{
-	//Declaration variable
-	private String itemId;
-	private String itemName;
-    private double itemPrice;
-    private String datePurchase;
-    protected String purchasedItemList;
-    
-    //no-args constructor
-    public ItemInformation () 
-    {
-    	String itemId;
-    	String itemName;
-    	double  itemPrice;
-    	String datePurchase;
-    	String purchasedItemList;
-    }
-    
-    //normal constructor
-    public ItemInformation (String itemId, String itemName, double itemPrice, String datePurchase, String purchasedItemList) 
+
+public class ItemInformation {
+	String itemId;
+    String itemName;
+    Double itemPrice;
+    String datePurchase;
+    int itemQuantity;
+	
+	public ItemInformation(CustomerInformation customer, String itemId, String itemName, Double itemPrice, String datePurchase, int itemQuantity)
 	{
-    	super();
-		this.itemId = itemId;
-		this.itemName = itemName;
-		this.itemPrice = itemPrice;
-		this.datePurchase = datePurchase;
-		this.purchasedItemList = purchasedItemList;
+		itemId = null;
+		itemName = null;
+		itemPrice = 0.00;
+		itemQuantity = 0;
+		datePurchase = null;
+		
+		
+	}//end of no-args constructor
+	
+	public ItemInformation(String IID, String IName, Double IPrice, String Date, int IQuantity )
+	{   
+		itemId = IID;
+		itemName = IName;
+		itemPrice = IPrice;
+		datePurchase = Date;
+		itemQuantity = IQuantity;
+		
+		
+	}//end of normal constructor
+	
+	
+	//Setter method
+	public void setItemId(String IID)
+	{
+		itemId = IID;
 	}
-    
-  //getter or accessor
-  	public String getitemId () 
-  	{
-  		return getitemId();
-  	} 
-  	
-  	public String getitemName ()
-  	{
-  		return getitemName ();
-  	}
-  	
-  	public double getitemPrice () 
-  	{
-		return getitemPrice ();
-  	}
-  	
-  	public String getdatePurchase ()
-  	{
-  		return getdatePurchase ();	
-  	}
-  	public String getpurchasedItemList () 
-  	{
-  		return getdatePurchase ();
-  	}
-  	
-  	//mutator
-  	
-  	public String getItemId() {return itemId;}
-  	public String getItemName() {return itemName;}
-  	public double getItemPrice() {return itemPrice;}
-  	public String getDatePurchase() {return datePurchase;}
-  	
-  	
-  	//toString Method
-  	public String toString() 
-  	{
-  		return "Item Information"
-  				+"\nItem Id : "+ itemId
-  				+"\nItem Name :"+ itemName
-  				+"\nItem Price :"+ itemPrice
-  				+"\nDate Purchase :"+ datePurchase;
-  				
-  	}
-  	
-  	
-  	
-  	
-  	
-}
+	
+	public void setItemName(String IName)
+	{
+		itemName = IName;
+	}
+	
+	public void setItemPrice(Double IPrice)
+	{
+		itemPrice = IPrice;
+	}
+	
+	
+	public void setItemQuantity(int IQuantity)
+	{
+		itemQuantity = IQuantity;
+	}
+	
+	public void setDatePurchase(String Date)
+	{
+		datePurchase = Date;
+	}
+	
+	//Getter method
+	
+	public String getItemId()
+	{
+		return itemId;
+	}
+	
+	public String getItemName()
+	{
+		return itemName;
+	}
+	
+	public Double getItemPrice()
+	{
+		return itemPrice;
+	}
+	
+	
+	public int getItemQuantity()
+	{
+		return itemQuantity;
+	}
+	
+	public String getDatePurchase()
+	{
+		return datePurchase;
+	}
+	
+	//toString
+	public String toString()
+	{
+		return ("Item Id: " + itemId + "Item Name: " + itemName + "Item Price: " + itemPrice + "Item Quantity: " + itemQuantity + "Purchase Date:" + datePurchase );
+	}//end of toString
+	
+	
+	
+	
+}//end of Item Information Class
+
