@@ -3,11 +3,11 @@
 //Customer Information Class
 public class CustomerInformation {
 	
-	//Declaration of attributes for CustomerInformation Class
+	//Declare of CustomerInformation 
 	String custId;
 	String custIc;
 	int counterPaid;
-	private ItemInformation item; //Customer has-a item
+	private ItemInformation item; //has-a item 
 	
 	
 	//Getter and setter for ItemInformation class
@@ -19,7 +19,7 @@ public class CustomerInformation {
 		this.item = item;
 	}
 
-	//Without parameter constructor
+	//Constructor without parameter
 	public CustomerInformation()
 	{
 		custId = null;
@@ -38,7 +38,7 @@ public class CustomerInformation {
 	}//end of normal constructor
 	
 	
-	//Setter Method
+	//this is setter method 
 	public void setCustId(String CustID)
 	{
 		custId = CustID;
@@ -54,7 +54,7 @@ public class CustomerInformation {
 		counterPaid = CounterPaid;
 	}
 	
-	//Getter method
+	//this is getter method
 	public String getCustId()
 	{
 		return custId;
@@ -73,7 +73,9 @@ public class CustomerInformation {
 	//toString
 	public String toString()
 	{
-		return ("Customer Id: " + custId + "Customer Ic: " + custIc + "Counter Paid: " + counterPaid);
+		return ("Customer Id: " + custId +
+				"Customer Ic: " + custIc +
+				"Counter Paid: " + counterPaid);
 	}//end of toString
 	
 	
