@@ -6,7 +6,8 @@ public class ItemInformation {
     String datePurchase;
     int itemQuantity;
 	
-	public ItemInformation(CustomerInformation customer, String itemId, String itemName, Double itemPrice, String datePurchase, int itemQuantity)
+    // constructor without parameter
+	public ItemInformation()
 	{
 		itemId = null;
 		itemName = null;
@@ -87,7 +88,11 @@ public class ItemInformation {
 	//toString
 	public String toString()
 	{
-		return ("Item Id: " + itemId + "Item Name: " + itemName + "Item Price: " + itemPrice + "Item Quantity: " + itemQuantity + "Purchase Date:" + datePurchase );
+		return ("Item Id: " + itemId + 
+				"Item Name: " + itemName + 
+				"Item Price: " + itemPrice +
+				"Item Quantity: " + itemQuantity + 
+				"Purchase Date:" + datePurchase );
 	}//end of toString
 	
 	
