@@ -1,0 +1,102 @@
+	001;101111100001;0;101;apple,milk,salt;16;01/01/2022;3
+002;200222220002;0;102;marker,pen,notebook;8;02/01/2022;3
+003;300333330003;0;103;frying pan,pot,kitchen scissors,grater,colander,electric kettler;160;03/01/2022;9
+004;400444000004;0;104;bleach,feather duster,rubber glove,hose;40;04/01/2022;6
+005;500555500005;0;105;t-shirt,slack,short pants,tracksuit,hoodie,polo;120;05/01/2022;6
+006;600666660006;0;106;fish, meat,chicken,orange juice,coca cola;100;06/01/2022;6
+007;700000000007;0;107;chocholate,caramel sauce,lolipop,raisins;50;07/01/2022;4
+008;800888800008;0;108;candy, chips, water;20;08/01/2022;3
+009;900999900009;0;109;chocolate bars,snack cakes,cookies;35;09/01/2022;3
+010;101100000011;0;110;cheese cake,burger,fries;110;10/01/2022;4
+011;111111111111;0;111;waffle,honey,chocholate souce,banana;200;11/01/2022;4
+012;101111000012;0;112;strawberry,blueberry,grape;85;12/01/2022;3
+013;101110000313;0;113;latte,mocha,americano;250;13/01/2022;3
+014;100000001414;0;114;bread,stawberry jems, nutella;90;14/01/2022;3
+015;101100000515;0;115;broom,plastic bags,cleaning cloth;70;15/01/2022;3
+016;101110000616;0;116;milk tea,strawberry pudding,choclate frap;80;16/01/2022;3
+017;100000071717;0;117;nestle, paddel pop, walls;350;17/01/2022;3
+018;100000081818;0;118;tea,green tea,strawberry tea,vanilla tea;500;18/01/2022;4
+019;100009191919;0;119;flour,tomato souce,peperoni,olive oil,ground beef;320;19/01/2022;5
+020;200000202020;0;120;matcha,caramel,coco powder;180;20/01/2022;3
+021;200001212121;0;121;better,whipped cream,coffee;260;21/01/2022;3
+022;222222222222;0;122;coffee machines,coffee beans,cups;5900;22/01/2022;3
+023;200023232323;0;123;cococrunch,honey star,conflake;65;23/01/2022;3
+024;200004242424;0;124;milo,horlicks,cadbury;85;24/01/2022;3
+025;200005252525;0;125;banana,rambutan,green apple;88;25/01/2022;3
+026;300005252525;0;126;sugar,white pepper,black pepper,MSG;100;26/01/2022;4
+027;300003252530;0;127;prawn,squid,crab;149;27/01/2022;3
+028;300005355523;0;128;salmon,cabbage,rice;199;28/01/2022;3
+029;300005153524;0;129;white paper,pen,stapler;30;29/01/2022;3
+030;300004352534;0;130;chef knife,bread knife,copping board;159;30/01/2022;3
+031;232345510000;0;131;cream cheese,flour,baking powder;129;31/01/2022;3
+032;454541230000;0;132;olive oil,caviar,lobster,perilla;155;01/02/2022;4
+033;600009867140;0;133;toblerone,cadbury,daim;140;02/02/2022;3
+034;800000000532;0;134;lamb,black pepper souce,salt;349;03/02/2022;3
+035;800000002121;0;135;tortilla,chicken,mayonnaise;69;04/02/2022;3
+036;600660000356;0;136;chicken,salmon,cabbage,olive oil;128;05/02/2022;4
+037;600005600344;0;137;chocolate chips,scoop,ice cream;135;06/02/2022;3
+038;654530000532;0;138;low fat milk,fullcream milk,soy milk;179;07/02/2022;3
+039;798900008621;0;139;chicken,eggs,rice;58;08/02/2022;3
+040;760900005827;0;140;protein powder,water,banana;255;09/02/2022;3
+041;700009764811;0;141;butter,olive oil,cooking oil;229;10/02/2022;3
+042;779000007312;0;142;beef,salt,lamb;225;11/02/2022;3
+043;710005652423;0;143;caramel sauce,coffee,water;29;12/02/2022;3
+044;720865464321;0;144;whipped cream,matcha,chocolate souce;219;13/02/2022;3
+045;790000640516;0;145;latte,mocha,chocolate chips;246;14/02/2022;3
+046;890000830817;0;146;vanilla,coffee,chocolate powder,sugar;99;15/02/2022;4
+047;868700003018;0;147;cookies,oreo,cream o;40;16/02/2022;3
+048;770000430623;0;148;butter,prawn,milk, chicken;100;17/02/2022;4
+049;800000646731;0;149;instant noodle,soy sauce,chicken;50;18/02/2022;3
+050;868790600001;0;150;milo,coco powder,flour,biscuit;70;19/02/2022;4
+051;345229965029;0;151;prunes,avocado,pistachios,fresh spinach;50 ;16/06/2023;5
+052;839403009714;0;152;frozen berries,rolled oats,canned black beans;14; 03/06/2023;3
+053;496351808380;0;153;chickpeas,tofu,almond butter,frozen veggies; 78 ;05/09/2022;4
+054;522963348424;0;154;sweet potatoes,bananas,whole grain wraps; 11 ;01/02/2023;4
+055;606142618501;0;155;cracker,nuts,quick oats, popcorn;90 ;20/05/2023;4
+056;845867405774;0;156;tortilla chips,cereal,white wine vinegar; 84 ;06/11/2022;3
+057;262660226685;0;157;red wine vinegar,vegetable,olive oil,coconut oil,balsamic vinegar;98; 23/09/2022;5
+058;970653420027;0;158;apple cider vinegar,salad dressing,hot sauce ;40 ;30/12/2022;3
+059;998243165609;0;159;steak sauce, soy sauce,salt,paprika,nutmeg ;15 ;25/01/2023;5
+060;199236820418;0;160;mayo,mustard,ketchup,garlic powder ;35 ;18/01/2023;4
+061;597789191552;0;161;cumin,crushed red pepper,cinnamon ;52 ;25/07/2022;3
+062;220335209228;0;162;chili powder,black pepper,coffee,canned veggies,green chiles; 43; 08/08/2022;5
+063;168943656288;0;163;tuna,soups,beans,pasta sauce ;76 ;14/02/2023;4
+064;630939073164;0;164;peanut butter,jelly,dice tomatoes,salsa; 50; 29/06/2023;4
+065;323352200950;0;165;broth,cookie dough;50 ;11/06/2023;3
+066;921512254395;0;166;pie crust,pizza,juice concentrate,frozen veggies ;91; 06/05/2023;4
+067;295550949255;0;167; fruit,berries,powdered sugar;32 ;15/03/2023;3
+068;928556021638;0;168; cocoa powder,chocolate chips,dry yeast;49; 05/05/2023;3
+069;493613882933;0;169; vanilla extract,honey,flour,Brown Sugar;50; 16/10/2022;4
+070;585784737093;0;170; Granulated Sugar,Baking Soda ,Baking powder;51; 31/05/2023;3
+071;046436253489;0;171; Greek Yogurt, Sour Cream, Milk;26 ;18/04/2023;3
+072;836782835648;0;172; Shredded Cheese ,Sliced Cheese, Butter;49; 02/07/2023;3
+073;413598371268;0;173;Lunch Meat, Sliced Turkey, Ground Beef;29 ;22/12/2022;3
+074;300618461096;0;174;Eggs, Chicken, Tortillas, Sandwich Bread;25; 28/05/2023;5
+075;437220617381;0;175;Rice, Quinoa, Pasta, Breadcrumbs;11 ;13/07/2022;4
+076;648608014028;0;176;Tomatoes, Spinach, Potatoes, Basil;91; 16/10/2022;4
+077;305226353823;0;177;Cilantro, Parsley, Onion, Lemons;50 ;03/04/2023;4
+078;160373614001;0;178; Garlic, Broccoli, Carrots, Bell Peppers;13; 08/03/2023;4
+079;274116750117;0;179;Avocados ,Strawberries, Bananas, Apples;92 ;23/08/2022;4
+080;141829602858;0;180;Cereal ,Tortilla Chips, Popcorn, Quick Oats;74; 03/07/2023;4
+081;180370845128;0;181;Nuts Crackers, White Wine, Vinegar ,Cooking Wine;22; 25/10/2022;4
+082;891767825456;0;182;White Vinegar, Red Wine, Vinegar, Vegetable;37 ;10/07/2022;4
+083;931025388259;0;183;Canola Oil ,Olive Oil ,Coconut Oil ,Balsamic vinegar;92; 06/11/2022;4
+084;770497770382;0;184;Apple cider, vinegar, Salad Dressings, Steak Sauce;50 ;21/03/2023;4
+086;367674807490;0;186;Soy Sauce ,Salt ,Paprika, Nutmeg ,Mayo;60 ;25/12/2022;5
+087;232516998439;0;187;Mustard ,Ketchup, Garlic Powder, Cumin;38 ;18/12/2022;4
+088;392956806217;0;188;Crushed Red Pepper ,Cinnamon ,Chili Powder, Black Pepper;17 ;02/01/2023;4
+089;793245492922;0;189;Coffee ,Tea, Canned Veggies, Green Chiles;60 ;17/05/2023;4
+090;917511401289;0;190;Tuna ,Soups ,Beans, Pasta Sauce ,Peanut Butter;74; 01/10/2022;5
+091;211400233453;0;191;Jam ,Diced Tomatoes, Salsa, Chicken stock;24 ;02/11/2022;4
+092;489779729003;0;192;Cookie ,Dough Pie ,Crust Pizza, Juice Concentrate;70; 28/11/2022;4
+093;353386312169;0;193;Corn ,Peas ,Broccoli, Fruit ;29 ;27/07/2022;4
+094;951812560573;0;194;Berries ,Powdered Sugar, Cocoa Powder;44 ;09/11/2022;3
+095;478683251716;0;195;Chocolate ,Chips Dry ,Yeast, Vanilla Extract;19; 20/05/2023;4
+096;533070990911;0;196;Honey ,Flour, Brown Sugar, Granulated Sugar;11 ;22/05/2023;4
+097;264865817804;0;197;Baking Soda ,Baking powder, Greek Yogurt, Sour Cream;85; 22/05/2023;4
+098;964697911679;0;198;Milk Shredded ,Cheese Sliced ,Cheese;71 ;25/11/2022;3
+099;879485016182;0;199;Butter, Lunch Meat Sliced ,Turkey, Ground Beef;45; 14/05/2023;4
+100;282136220839;0;200;Eggs ,Chicken ,Tortillas ,Sandwich ,Bread;23 ;02/05/2023;5
+
+
+
